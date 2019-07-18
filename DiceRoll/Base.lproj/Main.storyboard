@@ -41,56 +41,6 @@
                                 <rect key="frame" x="104" y="645" width="206" height="82"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mjc-EP-7s5">
-                                <rect key="frame" x="402" y="0.0" width="287" height="896"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kDW-Qu-guO">
-                                        <rect key="frame" x="212" y="258" width="182" height="208"/>
-                                    </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LdC-QK-Tx1">
-                                        <rect key="frame" x="20" y="258" width="182" height="208"/>
-                                    </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="unA-Hz-VRC">
-                                        <rect key="frame" x="20" y="538" width="369" height="51"/>
-                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="33"/>
-                                        <state key="normal" title="Roll me!!">
-                                            <color key="titleColor" red="0.034679495370000001" green="0.00021859440910000001" blue="0.64967817949999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="rollDice:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CS4-52-Irt"/>
-                                        </connections>
-                                    </button>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="Bear" translatesAutoresizingMaskIntoConstraints="NO" id="aLX-kR-G7t">
-                                        <rect key="frame" x="104" y="640" width="201" height="87"/>
-                                    </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Bear" translatesAutoresizingMaskIntoConstraints="NO" id="bFD-1C-yqc">
-                                        <rect key="frame" x="145" y="114" width="119" height="87"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                </subviews>
-                                <color key="backgroundColor" red="0.69904196340000002" green="0.69504028910000004" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstItem="unA-Hz-VRC" firstAttribute="top" secondItem="kDW-Qu-guO" secondAttribute="bottom" constant="8" id="BmJ-tS-oOK"/>
-                                    <constraint firstItem="unA-Hz-VRC" firstAttribute="top" secondItem="LdC-QK-Tx1" secondAttribute="bottom" constant="8" id="CiP-k2-qBZ"/>
-                                    <constraint firstItem="LdC-QK-Tx1" firstAttribute="leading" secondItem="47c-AG-VuM" secondAttribute="leading" constant="20" id="EFw-x8-E3M"/>
-                                    <constraint firstItem="aLX-kR-G7t" firstAttribute="top" secondItem="unA-Hz-VRC" secondAttribute="bottom" constant="8" id="LAE-JQ-AlW"/>
-                                    <constraint firstItem="aLX-kR-G7t" firstAttribute="leading" secondItem="47c-AG-VuM" secondAttribute="leading" constant="129" id="Tlw-ye-Qme"/>
-                                    <constraint firstItem="LdC-QK-Tx1" firstAttribute="leading" secondItem="47c-AG-VuM" secondAttribute="leading" constant="20" id="Wts-7i-P1M"/>
-                                    <constraint firstItem="kDW-Qu-guO" firstAttribute="top" secondItem="47c-AG-VuM" secondAttribute="top" constant="214" id="Y8e-12-qe0"/>
-                                    <constraint firstItem="47c-AG-VuM" firstAttribute="trailing" secondItem="kDW-Qu-guO" secondAttribute="trailing" constant="20" id="YTT-oh-WxT"/>
-                                    <constraint firstItem="unA-Hz-VRC" firstAttribute="top" secondItem="LdC-QK-Tx1" secondAttribute="bottom" constant="8" id="ZjW-2S-PWE"/>
-                                    <constraint firstItem="kDW-Qu-guO" firstAttribute="leading" secondItem="LdC-QK-Tx1" secondAttribute="trailing" constant="10" id="cMo-eQ-kGR"/>
-                                    <constraint firstItem="LdC-QK-Tx1" firstAttribute="top" secondItem="47c-AG-VuM" secondAttribute="top" constant="214" id="feg-je-dIm"/>
-                                    <constraint firstItem="47c-AG-VuM" firstAttribute="bottom" secondItem="aLX-kR-G7t" secondAttribute="bottom" constant="153" id="iwL-Qg-QhI"/>
-                                    <constraint firstItem="kDW-Qu-guO" firstAttribute="leading" secondItem="LdC-QK-Tx1" secondAttribute="trailing" constant="10" id="ka0-70-jrA"/>
-                                    <constraint firstItem="kDW-Qu-guO" firstAttribute="leading" secondItem="LdC-QK-Tx1" secondAttribute="trailing" constant="10" id="ksD-RQ-s5n"/>
-                                    <constraint firstItem="LdC-QK-Tx1" firstAttribute="top" secondItem="47c-AG-VuM" secondAttribute="top" constant="214" id="siI-8N-7j3"/>
-                                    <constraint firstItem="47c-AG-VuM" firstAttribute="trailing" secondItem="aLX-kR-G7t" secondAttribute="trailing" constant="128" id="xxv-uh-S7N"/>
-                                    <constraint firstItem="aLX-kR-G7t" firstAttribute="top" secondItem="unA-Hz-VRC" secondAttribute="bottom" constant="8" id="yUE-8A-KOF"/>
-                                </constraints>
-                                <viewLayoutGuide key="safeArea" id="47c-AG-VuM"/>
-                            </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="13z-8u-Tbf">
                                 <rect key="frame" x="83" y="801" width="248" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -150,6 +100,21 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="Q69-oo-s6k"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Have fun! :)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hix-Ew-kA8">
+                                <rect key="frame" x="111" y="697" width="193" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="34"/>
+                                <color key="textColor" red="0.1215686275" green="0.2274509804" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Bear" translatesAutoresizingMaskIntoConstraints="NO" id="8pF-yx-A8C">
+                                <rect key="frame" x="117" y="534" width="187" height="101"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Bear" translatesAutoresizingMaskIntoConstraints="NO" id="BZ7-u7-N1o">
+                                <rect key="frame" x="130" y="261" width="155" height="101"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.69904196340000002" green="0.69504028910000004" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
